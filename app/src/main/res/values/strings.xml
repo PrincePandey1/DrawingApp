@@ -1,6 +1,10 @@
 <resources>
     <string name="app_name">DrawingApp</string>
-    <string name="brush_image">brush image</string>
-    <string name="gallery_image">gallery image</string>
     <string name="background_image">background_image</string>
+
+    <string name="color_pallet">color_pallet</string>
+    <string name="gallery_image">gallery image</string>
+    <string name="brush_image">brush image</string>
+
+
 </resources>

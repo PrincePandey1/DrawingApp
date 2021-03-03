@@ -35,7 +35,7 @@ class MainActivity : AppCompatActivity() {
         ib_brush.setOnClickListener {
             showBrushSizeChooserDialog()
         }
-        ib_brush.setOnClickListener {
+        ib_gallery.setOnClickListener {
             if(isReadStorageAllowed()){
 
                 val pickPhotoIntent = Intent(Intent.ACTION_PICK,
@@ -46,7 +46,9 @@ class MainActivity : AppCompatActivity() {
                 requestStoragePermission()
             }
         }
-
+           ib_undo.setOnClickListener {
+               drawing_view.onClickUndo()
+           }
     }
 
     override fun onActivityResult(requestCode: Int, resultCode: Int, data: Intent?) {
