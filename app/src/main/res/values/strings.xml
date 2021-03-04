@@ -5,6 +5,7 @@
     <string name="color_pallet">color_pallet</string>
     <string name="gallery_image">gallery image</string>
     <string name="brush_image">brush image</string>
+    <string name="download_image">download image</string>
 
 
 </resources>

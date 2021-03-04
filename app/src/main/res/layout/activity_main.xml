@@ -180,6 +180,16 @@
             android:layout_margin="5dp"
             />
 
+        <ImageButton
+            android:id="@+id/ib_download"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:src="@drawable/download_image"
+            android:contentDescription="@string/download_image"
+            android:scaleType="fitXY"
+            android:layout_margin="5dp"
+            />
+
     </LinearLayout>
 
 
