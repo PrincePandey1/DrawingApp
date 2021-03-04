@@ -181,7 +181,7 @@
             />
 
         <ImageButton
-            android:id="@+id/ib_download"
+            android:id="@+id/ib_save"
             android:layout_width="50dp"
             android:layout_height="50dp"
             android:src="@drawable/download_image"
